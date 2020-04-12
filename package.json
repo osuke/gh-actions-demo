@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node -v"
+    "test": "mkdir dist && cp src/index.html dist/index.html"
   },
   "repository": {
     "type": "git",

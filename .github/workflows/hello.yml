@@ -14,5 +14,6 @@ jobs:
     name: Greetings
     # Virtual machine
     runs-on: ubuntu-latest
+    container: node
     steps:
-      - run: echo "Hello, World"
+      - run: node -v
